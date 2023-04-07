@@ -1,0 +1,18 @@
+/* Mengganti tampilan loading */
+.o_loading {
+    background-color: rgba(2, 49, 129, 0.8); /* --himsika-primary dengan opasitas */
+    border-radius: 5px;
+    color: #fff;
+}
+
+/* Mengganti animasi spinner loading */
+.o_loading .fa-spinner {
+    font-size: 3rem;
+    animation: himsika-spin 1s infinite linear;
+}
+
+/* Membuat animasi spinner baru */
+@keyframes himsika-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

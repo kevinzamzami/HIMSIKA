@@ -1,0 +1,21 @@
+/* Warna Palet */
+:root {
+    --himsika-primary: #023181;
+    --himsika-secondary: #dfdfe0;
+    --himsika-accent: #b9b9b9;
+}
+
+/* Mengganti warna header */
+.o_main_navbar {
+    background-color: var(--himsika-primary);
+}
+
+/* Mengganti warna sidebar */
+.o_apps_menu {
+    background-color: var(--himsika-secondary);
+}
+
+/* Mengganti warna teks dan ikon pada sidebar */
+.o_app, .o_app .o_app_icon {
+    color: var(--himsika-primary);
+}
